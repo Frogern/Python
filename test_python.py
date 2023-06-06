@@ -8,6 +8,6 @@ weather_parameters = {
 }
 url = 'https://wttr.in/vanadzor'
 
-response = r.get(url=url,params= weather_parameters)  # выполните HTTP-запрос
+response = r.get(url=url,params= weather_parameters)  
 
-print(response.text)  # напечатайте текст HTTP-ответа
+print(response.text)  
