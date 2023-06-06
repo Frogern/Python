@@ -3,7 +3,6 @@ def file():
     f = f.readlines()
     for i in f:
         line = i.split('. ')
-        bug_treck= {line[0]:line[1]}
-    print(bug_treck)
+    print(i)
 
 file()
