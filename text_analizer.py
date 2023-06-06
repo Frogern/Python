@@ -1,4 +1,4 @@
-def selector(name):
+def analizer(name):
     f = open(name)
     n = 0
     for i in f: 
@@ -8,4 +8,4 @@ def selector(name):
                 if n > 5:
                     print(i)  
         n=0  
-selector()
+analizer()
